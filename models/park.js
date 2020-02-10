@@ -11,6 +11,8 @@ const parkSchema = mongoose.Schema({
     managerId: String,
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now },
+    latitude: { type: String, required: true },
+    longitude: { type: Number, required: true },
    
 })
 

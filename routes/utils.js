@@ -56,6 +56,7 @@ const statusCodes = () => ({
     CONFLICT: 409,
 })
 
+
 const tokenPayload = async token => await jwt.verify(token, secret())
 
 

@@ -9,7 +9,12 @@ router.get('/parks', async (req, res) => {
 })
 
 router.post('/parks', async (req, res) => {
+    const unknown = "Unknown"
+    const capacity = 20
     const newPark = req.body
+    newPark.name = unknown
+    newPark.location = unknown
+    newPark.capacity = capacity
     const park = await Park.create(newPark)
     console.log(park)
     return res.json(park)
