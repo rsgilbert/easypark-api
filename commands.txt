@@ -1,0 +1,2 @@
+// post parks
+http -f :3000/parks name="Wandegeya Parking" location=Wandegeya capacity=100
