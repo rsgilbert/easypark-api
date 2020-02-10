@@ -38,5 +38,8 @@
   "devDependencies": {
     "superagent": "^5.1.2",
     "supertest": "^4.0.2"
+  },
+  "engines": {
+    "yarn": "1.21.1"
   }
 }

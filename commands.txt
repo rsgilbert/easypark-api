@@ -1,2 +1,14 @@
+
+
 // post parks
 http -f :3000/parks name="Wandegeya Parking" location=Wandegeya capacity=100
+
+
+// installation
+// to only install dev dependencies
+heroku config:set NPM_CONFIG_PRODUCTION=true YARN_PRODUCTION=true
+
+// to set yarn 
+  "engines": {
+    "yarn": "1.21.1"
+  }
