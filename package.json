@@ -1,10 +1,10 @@
 {
-  "name": "pfms-contacts-api",
+  "name": "easypark-api",
   "version": "1.0.0",
   "repository": {
-    "origin": "git@bitbucket.org:rsgilbert/pfms-contacts-api.git"
+    "origin": "https://github.com/rsgilbert/easypark-api"
   },
-  "description": "An api for pfms contacts app",
+  "description": "An api for easy park app",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
